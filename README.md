@@ -1,2 +1,8 @@
 # docker-aglio
-circleCI上でaglio動かす用
+run aglio in CircleCI
+
+
+```shell
+docker run --rm -v $(pwd):/data yuucu/aglio -i api.apib -o index.html
+```
+
